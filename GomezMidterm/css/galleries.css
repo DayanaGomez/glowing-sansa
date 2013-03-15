@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+
+
+/* Gallery One */
+
+
+.galleryOne {
+	width:100%;
+	position:relative;
+	height:100%;
+	
+	
+
+	
+}
+
+/* Column One */
+
+.columnOne {
+	position:relative;
+	width:26%;
+	float:left;	
+	margin-left:20%;
+	top:35px;	
+	height:400px;
+		
+}
+
+.columnOne ul {
+	list-style:none;
+	padding:0px;
+	float:left;
+	
+}
+
+.thumbOne {
+    position: absolute;
+    right: 30%;
+    width: 30%;
+}
+
+.thumbTwo {
+    position: absolute;
+    right: 0;
+    top: 10%;
+    width: 30%;
+}
+
+.thumbFive {
+    position: absolute;
+    right: 30%;
+    top: 17.5%;
+    width: 51%;
+}
+
+.thumbEight {
+    position: absolute;
+    top: 40.5%;
+    width: 30%;
+}
+
+.thumbNine {
+    position: absolute;
+    right: 30%;
+    top: 40.5%;
+    width: 40%;
+}
+
+.thumbTen {
+    position: absolute;
+    right: 0;
+    top: 40.5%;
+    width: 30%;
+}
+
+
+
+/* Column Two */
+
+.columnTwo {
+	position:relative;
+	width:18%;
+	float:left;
+	top:15px;	
+	height:400px;
+	
+}
+
+.columnTwo ul {
+	list-style:none;
+	padding:0px;
+	
+}
+
+.thumbThree {
+    position: absolute;
+    right: 36%;
+    top: 6%;
+    width: 64%;
+}
+
+.thumbFour {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 36%;
+}
+
+.thumbSix {
+    position: absolute;
+    right: 0;
+    top: 28%;
+    width: 100%;
+}
+
+.thumbEleven {
+    position: absolute;
+    right: 64%;
+    top: 62.5%;
+    width: 36%;
+}
+
+.thumbTwelve {
+    position: absolute;
+    right: 0;
+    top: 62.5%;
+    width: 64%;
+}
+
+
+
+
+/* Column Three */
+
+.columnThree {
+	position:relative;
+	width:16%;
+	float:left;
+	top:40px;	
+	height:400px;
+	
+	
+}
+
+.columnThree ul {
+	list-style:none;
+	padding:0px;
+	
+}
+
+.thumbSeven {
+    position: absolute;
+    right: 40%;
+    top: 0;
+    width: 60%;
+}
+
+.thumbFourteen {
+    position: absolute;
+    right: 0;
+    top: 42px;
+    width: 40%;
+}
+
+.thumbThirteen {
+    position: absolute;
+    right: 40%;
+    top: 17%;
+    width: 60%;
+}
+
+
+
+
+

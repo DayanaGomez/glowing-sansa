@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#winmask {
+	position:fixed;
+	background:rgba( 0, 0, 0, 0.3 );
+	width:100%;
+	height:100%;
+	display:none;
+	left:0px;
+	top:0px;
+}
+
+#modal {
+    
+    height: 100%;
+    margin: 0 auto 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+	animation-name:myAnimation;
+	animation-duration:5s;
+	animation-timing-function:ease-in;
+	opasity:50%;
+}
+
+#next {
+	float:left;
+	position:absolute;
+	cursor: pointer;
+	top:45%;
+	right:5%;
+	
+}
+
+#previous {
+    cursor: pointer;
+    float: left;
+    position: absolute;
+	top:45%;
+	left:5%;
+	
+}
+
+#close {
+	float:left;
+	position:absolute;
+	cursor: pointer;
+	top:20%;
+	right:5%;
+}
+
+#modalwrapper {
+	overflow:hidden;
+	float:left;
+	width:60%;
+	right:20%;
+	position:absolute;
+}

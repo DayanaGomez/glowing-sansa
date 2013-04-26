@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+
+<html>   
+
+  <head>  	
+    <title>Canvas</title>   
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="canvas.css" />
+  </head>
+  
+  <body>
+  
+  
+  	<header>
+    	<p> Canvas Drawing Menu </p><div id="homebtn"><a href="#home"><img src="images/home.png" /></a></div> <h1> Canvas </h1>
+    </header>
+    
+    <nav>
+    
+    	<ul class="navMenu">
+        	<li><a class="rectangle" href="#rectag" ></a></li>
+            <li><a class="line" href="#lintag"></a></li>
+            <li><a class="circle" href="#cirtag"></a></li>
+            <li><a class="gradient" href="#gratag"></a></li>
+            <li><a class="text" href="#textag"></a></li>
+            <li><a class="color" href="#coltag"></a></li>
+        </ul>
+        
+        <ul class="navText">
+        	<li><a href="#bastag" >basics</a></li>
+            <li><a href="#advtag" >advanced</a></li>
+            <li><a href="#instag" >inspiration</a></li>
+            <li><a href="#tuttag" >tutorials</a></li>
+        </ul>
+        
+    </nav>
+
+     <!-- HOME --> 
+    
+    
+    <div id="home"></div>
+    
+    
+    <article>
+        
+    	<section>
+        	<h2>&lt;canvas&gt;</h2>
+        	<p>The canvas element is used to draw graphics, on the fly, via scripting (usually JavaScript yay).
+
+			The canvas element is only a container for graphics. You must use a script to actually draw the 					graphics.</p>
+
+			<p>Canvas has several methods for drawing paths, boxes, circles, characters, and adding images.</p>
+            <h2>&lt;&#47;canvas&gt;</h2>
+            
+        </section>
+        
+        <section>
+        	<h3>Canvas Coorninates</h3>
+            <p><img id="coordinate" src="images/coordinate.png" /></p>
+        	
+        </section>
+    
+    </article>
+    
+    
+    
+     <!-- BASICS --> 
+    
+	
+    <div id="bastag">.</div>
+
+    <article>
+        
+    	<section>
+        	<h2>Basics</h2>
+            <h4>html</h4>
+        	<p>&lt;canvas id&#61; &#34;mycanvas&#34; width&#61; &#34;600px&#34; height&#61; &#34;400px&#34; &gt;&lt;&#47;canvas&gt;</p>
+            <h4>css</h4>
+            <p>mycanvas &#123; background&#58; white&#59; border&#58; 1px solid black&#59;&#125;</p>
+            <h4>js</h4>
+			<p>var c &#61; document.get<span>E</span>lement<span>B</span>y<span>I</span>d&#40;&#34;mycanvas&#34;&#41; &#59;</p>
+            <p>var ctx &#61; c.get<span>C</span>ontext&#40;&#34;2d&#34;&#41;&#59;
+        
+            
+        </section>
+        
+        <section>
+        	<canvas id="basCanvas"></canvas> 
+        	
+        </section>
+    
+    </article>
+
+    <!-- ADVANCED --> 
+    
+    
+    <div id="advtag"></div>
+    
+    
+    <article>
+        
+        <section>
+            <h2>&lt;canvas&gt;</h2>
+            <p>The canvas element is used to draw graphics, on the fly, via scripting (usually JavaScript yay).
+
+            The canvas element is only a container for graphics. You must use a script to actually draw the                     graphics.</p>
+
+            <p>Canvas has several methods for drawing paths, boxes, circles, characters, and adding images.</p>
+            <h2>&lt;&#47;canvas&gt;</h2>
+            
+        </section>
+        
+        <section>
+            <h3>Canvas Coorninates</h3>
+            <p><img id="coordinate" src="images/coordinate.png" /></p>
+            
+        </section>
+    
+    </article>
+
+    <!--  INSPIRATION --> 
+    
+    
+    <div id="instag"></div>
+    
+    
+    <article>
+        
+        <section class="tutorial">
+            <h2>&lt;Inspiration&gt;</h2>
+            <ul><li><a href="http://billmill.org/static/canvastutorial/ball.html" >How to Make a Game</a></li>
+            <li><a href="http://diveintohtml5.info/canvas.html#divingin" >Let's Call it Drawing</a></li>
+            <li><a href="http://blog.teamtreehouse.com/how-to-draw-with-html-5-canvas" >How to Draw with Html Canvas</a></li>
+            <li><a href="#tuttag" >tutorials</a></li></ul>
+            <h2>&lt;&#47;inspiration&gt;</h2>
+            
+        </section>
+        
+        <section>
+            <h3>Canvas Coorninates</h3>
+            <p><img id="coordinate" src="images/coordinate.png" /></p>
+            
+        </section>
+    
+    </article>
+    
+    <!--  TUTORIAL --> 
+    
+    
+    <div id="tuttag"></div>
+    
+    
+    <article>
+        
+        <section class="tutorial">
+            <h2>&lt;tutorial&gt;</h2>
+            <ul><li><a href="http://billmill.org/static/canvastutorial/ball.html" >How to Make a Game</a></li>
+            <li><a href="http://diveintohtml5.info/canvas.html#divingin" >Let's Call it Drawing</a></li>
+            <li><a href="http://blog.teamtreehouse.com/how-to-draw-with-html-5-canvas" >How to Draw with Html Canvas</a></li>
+            <li><a href="#tuttag" >tutorials</a></li></ul>
+            <h2>&lt;&#47;tutorial&gt;</h2>
+
+            
+        </section>
+        
+    
+    
+    </article>
+   <!-- RECTANGLE --> 
+    
+	
+    <div id="rectag">.</div>
+
+    <article>
+        
+    	<section>
+        	<h2>Drawing a Rectangle</h2>
+        	<h4>html</h4>
+            <p>&lt;canvas id&#61; &#34;mycanvas&#34; width&#61; &#34;600px&#34; height&#61; &#34;400px&#34; &gt;&lt;&#47;canvas&gt;</p>
+            <h4>css</h4>
+            <p>mycanvas &#123; background&#58; white&#59; border&#58; 1px solid black&#59;&#125;</p>
+            <h4>js</h4>
+            <p>var c &#61; document.get<span>E</span>lement<span>B</span>y<span>I</span>d&#40;&#34;mycanvas&#34;&#41; &#59;</p>
+            <p>var ctx &#61; c.get<span>C</span>ontext&#40;&#34;2d&#34;&#41;&#59;
+            <p>ctx.fill<span>S</span>tyle &#61; &#34;&#35;00FFFF&#34;&#59;</p>
+            <p>ctx.fill<span>R</span>ect &#40;10,20,150,75&#41;&#59;</p>
+            
+        </section>
+        
+        <section>
+        	<canvas id="recCanvas"></canvas> 
+        	
+        </section>
+    
+    </article>
+    
+     
+   <!-- LINE --> 
+    
+	    <div id="lintag">.</div>
+
+    <article>
+        
+    	<section>
+            <h2>Drawing a Line</h2>
+            <h4>html</h4>
+            <p>&lt;canvas id&#61; &#34;mycanvas&#34; width&#61; &#34;600px&#34; height&#61; &#34;400px&#34; &gt;&lt;&#47;canvas&gt;</p>
+            <h4>css</h4>
+            <p>mycanvas &#123; background&#58; white&#59; border&#58; 1px solid black&#59;&#125;</p>
+            <h4>js</h4>
+            <p>var c &#61; document.get<span>E</span>lement<span>B</span>y<span>I</span>d&#40;&#34;mycanvas&#34;&#41; &#59;</p>
+            <p>var ctx &#61; c.get<span>C</span>ontext&#40;&#34;2d&#34;&#41;&#59;
+            <p>ctx.move<span>T</span>o &#40;0,0&#41;&#59;</p>
+            <p>ctx.line<span>T</span>o &#40;200,400&#41;&#59;</p>
+            <p>ctx.stroke&#40;&#41;&#59;</p>
+            
+        </section>
+        
+        <section class>
+        	<canvas id="linCanvas"></canvas> 
+        	
+        </section>
+    
+    </article>
+    
+     
+   <!-- CIRCLE --> 
+    
+	
+    <div id="cirtag">.</div>
+
+    <article>
+        
+    	<section>
+        	<h2>Drawing a Circle</h2>
+        	<h4>html</h4>
+            <p>&lt;canvas id&#61; &#34;mycanvas&#34; width&#61; &#34;600px&#34; height&#61; &#34;400px&#34; &gt;&lt;&#47;canvas&gt;</p>
+            <h4>css</h4>
+            <p>mycanvas &#123; background&#58; white&#59; border&#58; 1px solid black&#59;&#125;</p>
+            <h4>js</h4>
+            <p>var c &#61; document.get<span>E</span>lement<span>B</span>y<span>I</span>d&#40;&#34;mycanvas&#34;&#41; &#59;</p>
+            <p>var ctx &#61; c.get<span>C</span>ontext&#40;&#34;2d&#34;&#41;&#59;
+            <p>ctx.begin<span>P</span>ath &#40;&#41;&#59;</p>
+            <p>ctx.arc<span>T</span>o &#40;95,50,40,0.2&#41;&#59;</p>
+            <p>ctx.stroke&#40;&#41;&#59;</p>
+
+        </section>
+        
+        <section>
+        	<canvas id="cirCanvas"></canvas> 
+        	
+        </section>
+    
+    </article>
+
+ 
+   <!-- GRADIENT --> 
+    
+	
+    <div id="gratag">.</div>
+
+    <article>
+        
+    	<section>
+        	<h2>Drawing a Gradient</h2>
+            <h4>js</h4>
+            <p>var c &#61; document.get<span>E</span>lement<span>B</span>y<span>I</span>d&#40;&#34;mycanvas&#34;&#41; &#59;</p>
+            <p>var ctx &#61; c.get<span>C</span>ontext&#40;&#34;2d&#34;&#41;&#59;
+            <p>var grd &#61; ctx.create<span>L</span>inear<span>G</span>radient&#40;0,0,200,0&#41;&#59;
+            <p>grd.add<span>C</span>olor<span>S</span>top &#40;0,&#34;black&#34;&#41;&#59;</p>
+            <p>grd.add<span>C</span>olor<span>S</span>top &#40;1,&#34;white&#34;&#41;&#59;</p>
+            <p>ctx.fill<span>S</span>tyle &#61; grd&#59;</p>
+            <p>ctx.fill<span>R</span>ect &#40;10,10,150,80&#41;&#59;</p>
+            
+        </section>
+        
+        <section>
+        	<canvas id="graCanvas"></canvas> 
+        	
+        </section>
+    
+    </article>
+    
+     
+   <!-- TEXT --> 
+    
+	
+    <div id="textag">.</div>
+
+    <article>
+        
+    	<section>
+        	<h2>Drawing Text</h2>
+        	<p>&lt;canvas id&#61; &#34;mycanvas&#34; width&#61; &#34;600px&#34; height&#61; &#34;400px&#34; &gt;&lt;&#47;canvas&gt;</p>
+            <h4>css</h4>
+            <p>mycanvas &#123; background&#58; white&#59; border&#58; 1px solid black&#59;&#125;</p>
+            <h4>js</h4>
+            <p>var c &#61; document.get<span>E</span>lement<span>B</span>y<span>I</span>d&#40;&#34;mycanvas&#34;&#41; &#59;</p>
+            <p>var ctx &#61; c.get<span>C</span>ontext&#40;&#34;2d&#34;&#41;&#59;
+            <p>ctx.font &#61; &#34;50px Arial&#34;&#59;</p>
+            <p>ctx.fill<span>T</span>ext &#40;&#34;Canvas are Cool&#34;,80,80&#41;&#59;</p>
+            
+            
+        </section>
+        
+        <section>
+        	<canvas id="texCanvas"></canvas> 
+        	
+        </section>
+    
+    </article>
+
+
+    
+     
+   <!-- COLOR --> 
+    
+	
+    <div id="coltag">.</div>
+
+    <article>
+        
+    	<section>
+        	<h2>Adding Color and Opacity</h2>
+            <h4>js</h4>
+            <p>var c &#61; document.get<span>E</span>lement<span>B</span>y<span>I</span>d&#40;&#34;mycanvas&#34;&#41; &#59;</p>
+            <p>var ctx &#61; c.get<span>C</span>ontext&#40;&#34;2d&#34;&#41;&#59;
+            <p>ctx.fill<span>S</span>tyle &#61; &#34;&#35;blue&#34;&#59;</p>
+            <p>ctx.fill<span>R</span>ect &#40;10,20,150,75&#41;&#59;</p>
+            <p>ctx.begin<span>P</span>ath &#40;&#41;&#59;</p>
+            <p>ctx.arc<span>T</span>o &#40;95,50,40,0.2&#41;&#59;</p>
+            <p>ctx.global<span>A</span>lpha&#40;&#41;&#59;</p>
+            <p>ctx.stroke&#40;&#41;&#59;</p>
+            
+        </section>
+        
+        <section>
+        	<canvas id="colCanvas"></canvas> 
+        	
+        </section>
+    
+    </article>
+
+
+  
+  	<script src="main.js" type="text/javascript">	</script>
+  </body>
+
+</html>

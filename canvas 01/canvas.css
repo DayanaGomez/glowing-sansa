@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* rectangle */
+
+
+
+#bastag {
+    
+    width: 100%;
+	float:left;
+}
+
+#basCanvas {
+
+	height:400px;
+	width:600px;
+	background-color: white;
+	border:1px solid black;
+	margin-left: 5%;
+}
+
+#advtag {
+    
+    width: 100%;
+	float:left;
+}
+
+#instag {
+    
+    width: 100%;
+	float:left;
+}
+
+#tuttag {
+    
+    width: 100%;
+	float:left;
+}
+
+#rectag {
+    
+    width: 100%;
+	float:left;
+}
+
+#recCanvas {
+	
+	height:400px;
+	width:600px;
+	background-color: white;
+	border:1px solid black;
+	margin-left: 5%;
+	
+	
+}
+#lintag {
+    
+    width: 100%;
+	float:left;
+}
+
+#linCanvas {
+	
+	height:400px;
+	width:600px;
+	background-color: white;
+	border:1px solid black;
+	margin-left: 5%;
+	
+	
+}
+#cirtag {
+    
+    width: 100%;
+	float:left;
+}
+
+#cirCanvas {
+	
+	height:400px;
+	width:600px;
+	background-color: white;
+	border:1px solid black;
+	margin-left: 5%;
+	
+	
+}
+#gratag {
+    
+    width: 100%;
+	float:left;
+}
+
+#graCanvas {
+	
+	height:400px;
+	width:600px;
+	background-color: white;
+	border:1px solid black;
+	margin-left: 5%;
+	
+	
+}
+#textag {
+    
+    width: 100%;
+	float:left;
+}
+
+#texCanvas {
+	
+	height:400px;
+	width:600px;
+	background-color: white;
+	border:1px solid black;
+	margin-left: 5%;
+	
+	
+}
+#coltag {
+    
+    width: 100%;
+	float:left;
+}
+
+#colCanvas {
+	
+	height:400px;
+	width:600px;
+	background-color: white;
+	border:1px solid black;
+	margin-left: 5%;
+	
+	
+}
+
+

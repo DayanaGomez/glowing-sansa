@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/* CSS Document */
+
+input, textarea { 
+	padding: 9px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	width: 200px;
+	background: #FFFFFF url('bg_form.png') left top repeat-x;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	}
+	
+body {
+	margin:autp;
+	background-image:url(../images/wrapperBck.jpg);	
+}
+p {
+    font-family: "Helvetica";
+    font-size: 14px;
+  
+}
+
+
+
+#bodywrapper {
+	width:1200px;
+	margin:auto;		
+}
+
+#header {
+    float: left;
+    padding-left: 100px;
+    width: 1130px;
+}
+
+#form {
+	width:850px;
+	padding-left:160px;
+	float:left;
+}
+
+#applicant {
+    background-image: url("../images/contentBck.png");
+    float: left;
+    padding-left: 40px;
+    width: 850px;
+	height:480px;
+}
+
+#software {
+    background-image: url("../images/contentBck.png");
+    float: left;
+    margin-top: 30px;
+    padding-left: 50px;
+    width: 840px;
+	height:300px;
+	
+}
+
+#education {
+    background-image: url("../images/contentBck.png");
+    float: left;
+    height: 240px;
+    margin-top: 30px;
+    padding-left: 50px;
+    width: 840px;
+}
+
+
+#addinfo {
+    background-image: url("../images/contentBck.png");
+    float: left;
+    height: 650px;
+    margin-top: 30px;
+    padding-left: 50px;
+    width: 840px;
+}
+
+#addinfo p {
+    padding-left: 265px;
+}
+#addinfo select {
+    margin-left: 365px;
+}
+.textbox {
+    margin-left: 200px;
+    padding-left: 155px;
+}
+.submit {
+	margin-top:100px;	
+}
+
+#letter {
+    background-image: url("../images/contentBck.png");
+    float: left;
+    height: 500px;
+    margin-top: 30px;
+    padding-left: 50px;
+    width: 840px;
+}
+#letter p {
+    padding-left: 265px;
+}
+
+.name {
+    float: left;
+    padding-left: 90px;
+    padding-right: 50px;
+}
+
+.last {
+	float:left;
+	padding-left:15px;
+}
+.city {
+	float:left;
+	padding-left:1px;
+}
+.zip {
+	float:left;
+	padding-left:20px;	
+}
+.phone {
+	float:left;
+	padding-left:22px;
+}
+.email {
+	width:527px;	
+}
+
+.appinfo {
+	padding-left:90px;
+	padding-top:10px;
+	font-family:"Helvetica Neue";
+	font-size:30px;
+	font-weight: 200;
+		
+}
+.softbox {
+    margin-left: 260px;
+    padding-left: 300px;
+    width: 100px;
+}
+h3 {
+
+	padding-left:90px;
+	padding-top:10px;
+	font-family:"Helvetica Neue";
+	font-size:30px;
+	font-weight:300;
+}
+
+.popup {
+	position:fixed;
+	top:40%;
+	left:50%;
+	width:300px;
+	padding:10px;
+	margin-left:-155;
+	background:white;
+	box-shadow: 0px 0px 10px black;
+	text-align: center;
+
+}
+}
+
+

@@ -1,0 +1,247 @@
+/* CSS Document */
+
+html, body, h1, h2, h3, ul, li, p, a img
+{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+html, body {
+	width:100%;
+	height:100%;
+	margin: 0px;
+	background:url("../icons/bckgHome.png") repeat center top;
+
+}
+
+header {
+    height: 70px;
+    left: 50%;
+    margin-left: -100px;
+    position: fixed;
+    top: 21px;
+    width: 70px;
+}
+
+#home {
+	height:100%;
+	width:100%;
+
+}
+
+#home p {
+    height: auto;
+    padding-top: 150px;
+    text-align: center;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'AmaticSCRegular';
+    src: url('../fonts/AmaticSC-Regular-webfont.eot');
+    src: url('../fonts/AmaticSC-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AmaticSC-Regular-webfont.woff') format('woff'),
+         url('../fonts/AmaticSC-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/AmaticSC-Regular-webfont.svg#AmaticSCRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+                   /* GALLERIES */
+
+.headerMain {
+	opacity: 0.7;
+	width:200px;
+	position: relative;
+	padding-left: 15%;
+
+}
+
+#graph {
+	height:100%;
+	width:100%;
+	padding-top: 150px;
+	
+	
+}
+
+.mainSection {
+
+	width:100%;
+	height:auto;
+}
+
+#web {
+	
+	width:100%;
+	padding-top: 150px;
+	
+	
+}
+
+#photo {
+	height:100%;
+	width:100%;
+	padding-top: 150px;
+	
+	
+}
+
+
+
+
+
+                   /* NAVIGATION */
+
+nav {
+	flaot:left;
+	height:70px;
+	width:100%;
+	position:fixed;
+	top:17px;
+	right:0;
+}
+
+.navMain {
+    position: absolute;
+    left:0;
+	height:70px;
+	width:26%;
+	margin-left:10%;
+	flaot:left;
+}
+
+.navMain ul {
+	list-style:none;
+	flaot:left;
+}
+
+.navMain li {
+	list-style:none;
+	padding-left:10px;
+	text-decoration: none;
+	flaot:left;
+	
+}
+
+.navMain li a {
+	background-image: url("../icons/navImg.png");
+	text-indent: -9999px;
+	display:inline-block;
+	height:70px;
+	float:left;
+	
+}
+
+.graph {
+	width:85px;
+	background-position: 0px 0px;
+}
+
+.graph:hover {
+	background-position: 0px -60px;
+}
+
+.web {
+	width:65px;
+	background-position: -85px 0px;
+}
+
+.web:hover {
+	background-position: -85px -60px;
+}
+.photo {
+	width:65px;
+	background-position: -150px 0px;
+}
+
+.photo:hover {
+	background-position: -150px -60px;
+}
+
+
+
+.home {
+	width:70px;
+	background-position: -215px 0px;
+}
+
+.home:hover {
+	background-position: -215px -60px;
+}
+
+					/* NAVIGATION */
+
+
+.navSocial {
+    position: absolute;
+    right:0;
+	height:70px;
+	width:20%;
+	margin-right:10%;
+	flaot:left;
+}
+
+.navSocial ul {
+	list-style:none;
+	flaot:left;
+}
+
+.navSocial li {
+	list-style:none;
+	text-decoration: none;
+	flaot:left;
+	
+}
+
+.navSocial li a {
+	background-image: url("../icons/navImg.png");
+	text-indent: -9999px;
+	display:inline-block;
+	height:70px;
+	float:left;
+	
+}
+
+.link {
+	width:65px;
+	background-position: -360px 0px;
+}
+
+.link:hover {
+	background-position: -360px -60px;
+}
+
+.face {
+	width:50px;
+	background-position: -425px 0px;
+}
+
+.face:hover {
+	background-position: -425px -60px;
+}
+.insta {
+	width:65px;
+	background-position: -475px 0px;
+}
+
+.insta:hover {
+	background-position: -475px -60px;
+}
+
+
+
+.conta {
+	width:60px;
+	background-position: -540px 0px;
+}
+
+.conta:hover {
+	background-position: -540px -60px;
+}
+
